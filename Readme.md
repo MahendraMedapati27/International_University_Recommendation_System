@@ -18,8 +18,8 @@
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd University_recommender
+git clone https://github.com/MahendraMedapati27/International_University_Recommendation_System-with-CrewAI-Qdrant-.git
+cd International_University_Recommendation_System-with-CrewAI-Qdrant-
 ```
 
 2. **Create conda environment**
@@ -347,8 +347,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/discussions)
+- **Issues**: [GitHub Issues](https://github.com/MahendraMedapati27/International_University_Recommendation_System-with-CrewAI-Qdrant-/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/MahendraMedapati27/International_University_Recommendation_System-with-CrewAI-Qdrant-/discussions)
 - **Email**: support@university-recommender.com
 
 ---
