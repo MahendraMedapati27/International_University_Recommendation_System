@@ -1,0 +1,2089 @@
+univ_id,univ_name,country,program,level,tuition_usd,deadline,language,acceptance_rate,scholarship_tags,description,qs_ranking,research_output,living_cost_monthly,visa_difficulty,avg_class_size,employment_rate_6mo
+uk-001,Oxford University,UK,Computer Science,bachelors,30029,2026-01-24,English,0.29,merit_based,"The Computer Science program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",360.0,High,1286,Easy,60,0.85
+uk-002,Oxford University,UK,Computer Science,masters,29808,2026-03-12,English,0.19,"merit_based,need_based","The Computer Science program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",113.0,Medium,1077,Easy,43,0.7
+uk-003,Oxford University,UK,Data Science,bachelors,34711,2026-02-21,English,0.33,merit_based,"The Data Science program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",308.0,High,869,Easy,77,0.84
+uk-004,Oxford University,UK,Data Science,masters,33588,2026-01-23,English,0.35,merit_based,"The Data Science program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,1544,Moderate,79,0.86
+uk-005,Oxford University,UK,Renewable Energy,bachelors,23539,2026-06-14,English,0.42,merit_based,"The Renewable Energy program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",451.0,High,2365,Challenging,51,0.86
+uk-006,Oxford University,UK,Renewable Energy,masters,34990,2026-09-26,English,0.25,merit_based,"The Renewable Energy program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",154.0,Good,1806,Moderate,61,0.86
+uk-007,Oxford University,UK,Business Analytics,bachelors,32693,2026-02-04,English,0.41,merit_based,"The Business Analytics program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",101.0,Good,1842,Challenging,18,0.9
+uk-008,Oxford University,UK,Business Analytics,masters,22648,2026-09-18,English,0.23,"merit_based,need_based","The Business Analytics program at Oxford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",89.0,Very High,871,Challenging,40,0.87
+uk-009,Cambridge University,UK,Computer Science,bachelors,18276,2026-04-21,English,0.33,merit_based,"The Computer Science program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,2401,Easy,38,0.73
+uk-010,Cambridge University,UK,Computer Science,masters,20724,2026-03-23,English,0.36,"merit_based,need_based","The Computer Science program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",379.0,High,1024,Easy,72,0.93
+uk-011,Cambridge University,UK,Data Science,bachelors,28339,2026-10-08,English,0.2,merit_based,"The Data Science program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",118.0,Medium,2236,Challenging,36,0.75
+uk-012,Cambridge University,UK,Data Science,masters,22188,2026-07-18,English,0.2,"merit_based,need_based,commonwealth","The Data Science program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Good,2116,Challenging,34,0.87
+uk-013,Cambridge University,UK,Renewable Energy,bachelors,27801,2026-01-05,English,0.39,merit_based,"The Renewable Energy program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,902,Challenging,78,0.72
+uk-014,Cambridge University,UK,Renewable Energy,masters,27179,2026-02-06,English,0.29,merit_based,"The Renewable Energy program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",100.0,Good,1135,Easy,40,0.85
+uk-015,Cambridge University,UK,Business Analytics,bachelors,25220,2026-05-14,English,0.38,"need_based,merit_based","The Business Analytics program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,1424,Moderate,23,0.79
+uk-016,Cambridge University,UK,Business Analytics,masters,20681,2026-05-29,English,0.13,merit_based,"The Business Analytics program at Cambridge University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",270.0,Good,1390,Challenging,76,0.8
+uk-017,Imperial College London,UK,Computer Science,bachelors,30536,2025-12-03,English,0.24,"merit_based,need_based","The Computer Science program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",483.0,Good,1315,Moderate,79,0.78
+uk-018,Imperial College London,UK,Computer Science,masters,21681,2026-03-23,English,0.3,"need_based,merit_based","The Computer Science program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,875,Easy,39,0.83
+uk-019,Imperial College London,UK,Data Science,bachelors,33086,2025-12-21,English,0.22,"merit_based,commonwealth","The Data Science program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",451.0,Very High,910,Challenging,29,0.9
+uk-020,Imperial College London,UK,Data Science,masters,28462,2026-05-21,English,0.12,"need_based,merit_based","The Data Science program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,1108,Easy,52,0.91
+uk-021,Imperial College London,UK,Renewable Energy,bachelors,29557,2026-02-07,English,0.15,"commonwealth,merit_based","The Renewable Energy program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",232.0,Medium,1406,Easy,25,0.88
+uk-022,Imperial College London,UK,Renewable Energy,masters,34266,2026-03-25,English,0.33,"merit_based,commonwealth","The Renewable Energy program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",292.0,Good,2291,Moderate,77,0.77
+uk-023,Imperial College London,UK,Business Analytics,bachelors,30562,2026-06-13,English,0.41,"commonwealth,merit_based","The Business Analytics program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",215.0,Very High,2102,Challenging,74,0.77
+uk-024,Imperial College London,UK,Business Analytics,masters,24021,2026-04-18,English,0.24,"merit_based,need_based","The Business Analytics program at Imperial College London offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",113.0,Medium,2179,Challenging,38,0.73
+uk-025,UCL,UK,Computer Science,bachelors,19976,2026-01-04,English,0.17,"commonwealth,merit_based","The Computer Science program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",306.0,Good,1858,Moderate,32,0.93
+uk-026,UCL,UK,Computer Science,masters,21225,2026-04-12,English,0.05,"merit_based,need_based","The Computer Science program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",290.0,Good,2262,Easy,32,0.89
+uk-027,UCL,UK,Data Science,bachelors,33829,2026-07-23,English,0.45,"merit_based,need_based","The Data Science program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",174.0,Very High,2396,Easy,75,0.91
+uk-028,UCL,UK,Data Science,masters,27707,2026-01-10,English,0.31,"merit_based,need_based","The Data Science program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2244,Challenging,57,0.82
+uk-029,UCL,UK,Renewable Energy,bachelors,21470,2026-05-13,English,0.43,"need_based,merit_based","The Renewable Energy program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",494.0,Medium,1431,Moderate,49,0.77
+uk-030,UCL,UK,Renewable Energy,masters,32098,2026-10-11,English,0.42,"need_based,merit_based","The Renewable Energy program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",446.0,Very High,1958,Challenging,17,0.72
+uk-031,UCL,UK,Business Analytics,bachelors,19289,2026-03-02,English,0.13,merit_based,"The Business Analytics program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",76.0,Medium,1375,Challenging,31,0.84
+uk-032,UCL,UK,Business Analytics,masters,33479,2026-09-30,English,0.3,merit_based,"The Business Analytics program at UCL offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",274.0,Good,1685,Moderate,26,0.89
+uk-033,Edinburgh University,UK,Computer Science,bachelors,25071,2025-12-11,English,0.19,"need_based,merit_based","The Computer Science program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",317.0,Good,1655,Challenging,68,0.85
+uk-034,Edinburgh University,UK,Computer Science,masters,32414,2026-03-22,English,0.09,"need_based,merit_based","The Computer Science program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Good,2497,Challenging,22,0.92
+uk-035,Edinburgh University,UK,Data Science,bachelors,25943,2026-09-18,English,0.35,merit_based,"The Data Science program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",450.0,Good,1791,Challenging,78,0.79
+uk-036,Edinburgh University,UK,Data Science,masters,24872,2026-07-07,English,0.32,"merit_based,commonwealth","The Data Science program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2412,Easy,19,0.77
+uk-037,Edinburgh University,UK,Renewable Energy,bachelors,21053,2026-07-08,English,0.2,"need_based,merit_based","The Renewable Energy program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,2327,Moderate,33,0.83
+uk-038,Edinburgh University,UK,Renewable Energy,masters,34775,2026-09-23,English,0.19,"need_based,merit_based","The Renewable Energy program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",454.0,Good,1349,Easy,43,0.77
+uk-039,Edinburgh University,UK,Business Analytics,bachelors,20569,2026-09-14,English,0.11,"merit_based,need_based","The Business Analytics program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",103.0,Very High,1111,Challenging,28,0.91
+uk-040,Edinburgh University,UK,Business Analytics,masters,29967,2026-02-04,English,0.36,"need_based,commonwealth,merit_based","The Business Analytics program at Edinburgh University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2355,Challenging,38,0.76
+usa-041,MIT,USA,Computer Science,bachelors,50210,2026-10-16,English,0.44,"need_based,merit_based","The Computer Science program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1469,Challenging,64,0.88
+usa-042,MIT,USA,Computer Science,masters,53313,2025-12-24,English,0.36,"need_based,merit_based","The Computer Science program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",77.0,High,1642,Easy,27,0.91
+usa-043,MIT,USA,Data Science,bachelors,51107,2026-08-03,English,0.14,"need_based,merit_based","The Data Science program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",206.0,Good,2064,Easy,74,0.79
+usa-044,MIT,USA,Data Science,masters,33308,2026-05-08,English,0.41,merit_based,"The Data Science program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",79.0,Medium,2194,Moderate,55,0.73
+usa-045,MIT,USA,Renewable Energy,bachelors,32560,2026-10-14,English,0.32,"merit_based,need_based","The Renewable Energy program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",362.0,Medium,2154,Easy,55,0.76
+usa-046,MIT,USA,Renewable Energy,masters,46406,2026-08-21,English,0.18,merit_based,"The Renewable Energy program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",297.0,Medium,2294,Easy,16,0.78
+usa-047,MIT,USA,Business Analytics,bachelors,59547,2026-04-01,English,0.19,"merit_based,need_based","The Business Analytics program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1612,Easy,75,0.78
+usa-048,MIT,USA,Business Analytics,masters,58962,2025-12-11,English,0.19,"need_based,merit_based","The Business Analytics program at MIT offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",408.0,Medium,2091,Moderate,23,0.75
+usa-049,Stanford University,USA,Computer Science,bachelors,30011,2026-08-07,English,0.14,"merit_based,need_based","The Computer Science program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",444.0,Medium,2443,Moderate,68,0.89
+usa-050,Stanford University,USA,Computer Science,masters,57606,2026-01-29,English,0.3,"need_based,merit_based","The Computer Science program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",343.0,High,2316,Moderate,33,0.83
+usa-051,Stanford University,USA,Data Science,bachelors,33888,2026-09-12,English,0.15,merit_based,"The Data Science program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",363.0,Good,2318,Challenging,56,0.77
+usa-052,Stanford University,USA,Data Science,masters,52682,2026-01-10,English,0.41,"need_based,merit_based","The Data Science program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",445.0,Medium,2111,Moderate,66,0.95
+usa-053,Stanford University,USA,Renewable Energy,bachelors,59171,2026-02-24,English,0.3,"need_based,merit_based","The Renewable Energy program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,1155,Easy,65,0.9
+usa-054,Stanford University,USA,Renewable Energy,masters,31166,2026-05-04,English,0.06,"merit_based,need_based","The Renewable Energy program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",281.0,Medium,1705,Easy,61,0.86
+usa-055,Stanford University,USA,Business Analytics,bachelors,37075,2026-10-02,English,0.22,"need_based,merit_based","The Business Analytics program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",113.0,Very High,1882,Challenging,69,0.83
+usa-056,Stanford University,USA,Business Analytics,masters,51542,2026-07-22,English,0.4,merit_based,"The Business Analytics program at Stanford University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,1495,Easy,22,0.81
+usa-057,Harvard University,USA,Computer Science,bachelors,35513,2026-01-13,English,0.21,"merit_based,need_based","The Computer Science program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,1977,Challenging,33,0.88
+usa-058,Harvard University,USA,Computer Science,masters,37055,2026-06-04,English,0.13,"merit_based,need_based","The Computer Science program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",146.0,Good,1418,Easy,22,0.89
+usa-059,Harvard University,USA,Data Science,bachelors,32056,2026-04-03,English,0.16,"need_based,merit_based","The Data Science program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",123.0,Good,978,Easy,31,0.75
+usa-060,Harvard University,USA,Data Science,masters,45037,2026-04-14,English,0.32,merit_based,"The Data Science program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,1065,Challenging,48,0.84
+usa-061,Harvard University,USA,Renewable Energy,bachelors,41229,2025-12-22,English,0.29,"need_based,merit_based","The Renewable Energy program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",330.0,Good,1896,Moderate,77,0.85
+usa-062,Harvard University,USA,Renewable Energy,masters,42503,2026-06-26,English,0.26,"need_based,merit_based","The Renewable Energy program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",109.0,High,2397,Easy,70,0.78
+usa-063,Harvard University,USA,Business Analytics,bachelors,36358,2026-07-29,English,0.42,"merit_based,need_based","The Business Analytics program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",124.0,Very High,1819,Challenging,63,0.78
+usa-064,Harvard University,USA,Business Analytics,masters,59252,2026-02-01,English,0.11,"merit_based,need_based","The Business Analytics program at Harvard University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",245.0,High,2397,Easy,61,0.87
+usa-065,UC Berkeley,USA,Computer Science,bachelors,36997,2026-03-05,English,0.22,merit_based,"The Computer Science program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,1076,Easy,37,0.78
+usa-066,UC Berkeley,USA,Computer Science,masters,53889,2026-09-01,English,0.27,merit_based,"The Computer Science program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2316,Easy,79,0.86
+usa-067,UC Berkeley,USA,Data Science,bachelors,36831,2026-07-03,English,0.26,"need_based,merit_based","The Data Science program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1007,Challenging,39,0.82
+usa-068,UC Berkeley,USA,Data Science,masters,47582,2026-07-23,English,0.31,"need_based,merit_based","The Data Science program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",289.0,Good,2028,Challenging,63,0.85
+usa-069,UC Berkeley,USA,Renewable Energy,bachelors,57057,2026-09-21,English,0.32,merit_based,"The Renewable Energy program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",350.0,Very High,1329,Easy,76,0.72
+usa-070,UC Berkeley,USA,Renewable Energy,masters,53348,2026-05-13,English,0.15,merit_based,"The Renewable Energy program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",349.0,High,860,Easy,60,0.89
+usa-071,UC Berkeley,USA,Business Analytics,bachelors,47976,2025-12-27,English,0.16,merit_based,"The Business Analytics program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,2324,Moderate,47,0.75
+usa-072,UC Berkeley,USA,Business Analytics,masters,46586,2026-06-08,English,0.09,merit_based,"The Business Analytics program at UC Berkeley offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",339.0,Medium,2113,Easy,74,0.86
+usa-073,Carnegie Mellon,USA,Computer Science,bachelors,31265,2026-01-11,English,0.18,merit_based,"The Computer Science program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,2115,Challenging,40,0.86
+usa-074,Carnegie Mellon,USA,Computer Science,masters,43759,2026-10-15,English,0.4,merit_based,"The Computer Science program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,1671,Easy,64,0.81
+usa-075,Carnegie Mellon,USA,Data Science,bachelors,30113,2026-10-10,English,0.25,"need_based,merit_based","The Data Science program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",268.0,High,1968,Easy,49,0.89
+usa-076,Carnegie Mellon,USA,Data Science,masters,36603,2026-10-01,English,0.06,merit_based,"The Data Science program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",443.0,Medium,868,Challenging,72,0.73
+usa-077,Carnegie Mellon,USA,Renewable Energy,bachelors,44311,2026-05-13,English,0.28,merit_based,"The Renewable Energy program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,2358,Challenging,24,0.72
+usa-078,Carnegie Mellon,USA,Renewable Energy,masters,57854,2025-12-05,English,0.17,"merit_based,need_based","The Renewable Energy program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,1965,Challenging,75,0.95
+usa-079,Carnegie Mellon,USA,Business Analytics,bachelors,57953,2026-02-01,English,0.3,merit_based,"The Business Analytics program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",90.0,Good,2082,Challenging,51,0.71
+usa-080,Carnegie Mellon,USA,Business Analytics,masters,34314,2026-04-22,English,0.4,"need_based,merit_based","The Business Analytics program at Carnegie Mellon offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",179.0,Very High,869,Challenging,19,0.79
+can-081,University of Toronto,Canada,Computer Science,bachelors,16442,2026-05-18,English,0.1,"merit_based,commonwealth","The Computer Science program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",457.0,High,1592,Easy,34,0.84
+can-082,University of Toronto,Canada,Computer Science,masters,18710,2026-09-05,English,0.21,"need_based,commonwealth,merit_based","The Computer Science program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",282.0,Good,1479,Challenging,42,0.93
+can-083,University of Toronto,Canada,Data Science,bachelors,26788,2026-04-01,English,0.09,merit_based,"The Data Science program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,1676,Challenging,64,0.89
+can-084,University of Toronto,Canada,Data Science,masters,22423,2026-04-15,English,0.09,merit_based,"The Data Science program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2141,Challenging,15,0.86
+can-085,University of Toronto,Canada,Renewable Energy,bachelors,17673,2026-08-03,English,0.19,merit_based,"The Renewable Energy program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,1794,Moderate,37,0.78
+can-086,University of Toronto,Canada,Renewable Energy,masters,31478,2025-12-30,English,0.34,merit_based,"The Renewable Energy program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",71.0,Medium,1367,Challenging,46,0.89
+can-087,University of Toronto,Canada,Business Analytics,bachelors,23727,2025-12-21,English,0.26,merit_based,"The Business Analytics program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1508,Moderate,78,0.75
+can-088,University of Toronto,Canada,Business Analytics,masters,26248,2026-09-10,English,0.23,merit_based,"The Business Analytics program at University of Toronto offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,2494,Challenging,64,0.89
+can-089,UBC,Canada,Computer Science,bachelors,32851,2026-10-01,English,0.32,"merit_based,need_based","The Computer Science program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",414.0,Good,2201,Easy,51,0.74
+can-090,UBC,Canada,Computer Science,masters,21883,2026-09-14,English,0.19,"need_based,merit_based","The Computer Science program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,2190,Moderate,43,0.84
+can-091,UBC,Canada,Data Science,bachelors,16145,2026-03-28,English,0.32,merit_based,"The Data Science program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,1571,Challenging,60,0.79
+can-092,UBC,Canada,Data Science,masters,19685,2026-07-14,English,0.1,merit_based,"The Data Science program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",489.0,High,1404,Challenging,39,0.88
+can-093,UBC,Canada,Renewable Energy,bachelors,28720,2025-11-28,English,0.35,"need_based,merit_based","The Renewable Energy program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",237.0,Good,2275,Challenging,53,0.87
+can-094,UBC,Canada,Renewable Energy,masters,25128,2026-01-25,English,0.08,"need_based,merit_based","The Renewable Energy program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",427.0,Very High,1213,Challenging,56,0.83
+can-095,UBC,Canada,Business Analytics,bachelors,17811,2026-01-09,English,0.06,"need_based,merit_based","The Business Analytics program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",55.0,High,1575,Challenging,80,0.73
+can-096,UBC,Canada,Business Analytics,masters,17971,2025-12-22,English,0.05,merit_based,"The Business Analytics program at UBC offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",417.0,Medium,2205,Challenging,31,0.92
+can-097,McGill University,Canada,Computer Science,bachelors,15160,2026-02-07,English,0.44,"need_based,merit_based","The Computer Science program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",207.0,High,1089,Moderate,59,0.89
+can-098,McGill University,Canada,Computer Science,masters,26383,2026-02-22,English,0.28,"commonwealth,merit_based","The Computer Science program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",321.0,Good,1001,Challenging,74,0.86
+can-099,McGill University,Canada,Data Science,bachelors,15974,2026-03-26,English,0.33,merit_based,"The Data Science program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",65.0,Good,1755,Challenging,51,0.76
+can-100,McGill University,Canada,Data Science,masters,16168,2025-12-14,English,0.11,merit_based,"The Data Science program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,2229,Moderate,45,0.9
+can-101,McGill University,Canada,Renewable Energy,bachelors,28312,2026-03-03,English,0.4,merit_based,"The Renewable Energy program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",189.0,High,1586,Easy,59,0.73
+can-102,McGill University,Canada,Renewable Energy,masters,16500,2026-01-08,English,0.13,merit_based,"The Renewable Energy program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",304.0,Very High,2066,Challenging,19,0.83
+can-103,McGill University,Canada,Business Analytics,bachelors,27396,2026-07-12,English,0.09,merit_based,"The Business Analytics program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1417,Easy,74,0.81
+can-104,McGill University,Canada,Business Analytics,masters,18304,2026-06-10,English,0.4,"merit_based,need_based","The Business Analytics program at McGill University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",114.0,High,1153,Easy,70,0.71
+can-105,Waterloo University,Canada,Computer Science,bachelors,28209,2026-07-01,English,0.3,"need_based,merit_based","The Computer Science program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,1091,Moderate,73,0.94
+can-106,Waterloo University,Canada,Computer Science,masters,21400,2025-12-19,English,0.22,"merit_based,need_based","The Computer Science program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",111.0,High,2319,Moderate,57,0.9
+can-107,Waterloo University,Canada,Data Science,bachelors,27225,2025-11-25,English,0.28,"merit_based,need_based","The Data Science program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",129.0,High,2279,Easy,49,0.84
+can-108,Waterloo University,Canada,Data Science,masters,29275,2026-01-11,English,0.44,merit_based,"The Data Science program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",270.0,Good,1394,Moderate,27,0.9
+can-109,Waterloo University,Canada,Renewable Energy,bachelors,25344,2026-09-27,English,0.26,"need_based,merit_based","The Renewable Energy program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,2250,Moderate,68,0.79
+can-110,Waterloo University,Canada,Renewable Energy,masters,30033,2026-10-25,English,0.42,"need_based,merit_based","The Renewable Energy program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,2458,Moderate,65,0.7
+can-111,Waterloo University,Canada,Business Analytics,bachelors,22828,2025-12-19,English,0.23,merit_based,"The Business Analytics program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,1704,Easy,26,0.81
+can-112,Waterloo University,Canada,Business Analytics,masters,19495,2025-12-19,English,0.2,"need_based,merit_based","The Business Analytics program at Waterloo University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,2190,Moderate,47,0.91
+ger-113,TU Munich,Germany,Computer Science,bachelors,969,2026-01-21,German,0.12,"need_based,merit_based","The Computer Science program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",263.0,Very High,1765,Easy,77,0.83
+ger-114,TU Munich,Germany,Computer Science,masters,1626,2026-01-04,English,0.09,merit_based,"The Computer Science program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",35.0,Very High,1812,Easy,66,0.77
+ger-115,TU Munich,Germany,Data Science,bachelors,1264,2026-06-12,English,0.06,merit_based,"The Data Science program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,962,Challenging,43,0.9
+ger-116,TU Munich,Germany,Data Science,masters,1307,2026-01-17,German,0.06,merit_based,"The Data Science program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,1834,Moderate,50,0.81
+ger-117,TU Munich,Germany,Renewable Energy,bachelors,2337,2026-01-12,English,0.2,"merit_based,need_based","The Renewable Energy program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",86.0,High,1997,Challenging,59,0.92
+ger-118,TU Munich,Germany,Renewable Energy,masters,866,2026-05-07,German,0.27,merit_based,"The Renewable Energy program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",238.0,High,1527,Challenging,21,0.87
+ger-119,TU Munich,Germany,Business Analytics,bachelors,1241,2026-04-05,German,0.06,"merit_based,need_based","The Business Analytics program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",109.0,High,1280,Moderate,40,0.93
+ger-120,TU Munich,Germany,Business Analytics,masters,969,2026-06-17,English,0.21,merit_based,"The Business Analytics program at TU Munich offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",43.0,Good,1698,Easy,67,0.76
+ger-121,RWTH Aachen,Germany,Computer Science,bachelors,2765,2026-01-15,English,0.23,"merit_based,need_based","The Computer Science program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",221.0,Medium,2339,Challenging,39,0.75
+ger-122,RWTH Aachen,Germany,Computer Science,masters,792,2026-07-19,German,0.08,"need_based,merit_based","The Computer Science program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",399.0,Good,1332,Moderate,21,0.94
+ger-123,RWTH Aachen,Germany,Data Science,bachelors,511,2026-02-05,English,0.36,merit_based,"The Data Science program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",470.0,Medium,1802,Challenging,72,0.91
+ger-124,RWTH Aachen,Germany,Data Science,masters,2698,2026-03-29,English,0.25,"merit_based,need_based","The Data Science program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",148.0,High,875,Moderate,49,0.8
+ger-125,RWTH Aachen,Germany,Renewable Energy,bachelors,2671,2026-01-20,German,0.12,merit_based,"The Renewable Energy program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",289.0,High,1153,Moderate,39,0.72
+ger-126,RWTH Aachen,Germany,Renewable Energy,masters,2429,2026-08-12,German,0.22,"merit_based,need_based","The Renewable Energy program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",190.0,High,1955,Challenging,72,0.84
+ger-127,RWTH Aachen,Germany,Business Analytics,bachelors,2794,2026-01-19,English,0.33,"merit_based,need_based","The Business Analytics program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",57.0,Medium,1942,Moderate,63,0.9
+ger-128,RWTH Aachen,Germany,Business Analytics,masters,363,2026-08-01,English,0.4,merit_based,"The Business Analytics program at RWTH Aachen offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",495.0,Good,1045,Moderate,42,0.79
+ger-129,University of Heidelberg,Germany,Computer Science,bachelors,791,2026-08-16,German,0.22,merit_based,"The Computer Science program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,2392,Challenging,43,0.75
+ger-130,University of Heidelberg,Germany,Computer Science,masters,1310,2026-01-01,English,0.18,"merit_based,need_based","The Computer Science program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",346.0,Medium,1859,Moderate,67,0.77
+ger-131,University of Heidelberg,Germany,Data Science,bachelors,2640,2026-01-24,English,0.35,merit_based,"The Data Science program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,811,Challenging,79,0.86
+ger-132,University of Heidelberg,Germany,Data Science,masters,1050,2026-05-13,German,0.21,"need_based,merit_based","The Data Science program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",119.0,Good,1974,Challenging,70,0.77
+ger-133,University of Heidelberg,Germany,Renewable Energy,bachelors,335,2026-06-09,German,0.16,merit_based,"The Renewable Energy program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,811,Challenging,52,0.77
+ger-134,University of Heidelberg,Germany,Renewable Energy,masters,1094,2026-08-01,English,0.1,merit_based,"The Renewable Energy program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",84.0,Good,1363,Moderate,66,0.82
+ger-135,University of Heidelberg,Germany,Business Analytics,bachelors,1762,2026-10-21,English,0.34,merit_based,"The Business Analytics program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,1606,Moderate,68,0.89
+ger-136,University of Heidelberg,Germany,Business Analytics,masters,1996,2026-06-17,German,0.3,"merit_based,need_based","The Business Analytics program at University of Heidelberg offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",423.0,High,1487,Easy,73,0.77
+ger-137,Humboldt University,Germany,Computer Science,bachelors,2511,2026-05-02,English,0.1,"need_based,merit_based","The Computer Science program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",493.0,High,2372,Challenging,21,0.78
+ger-138,Humboldt University,Germany,Computer Science,masters,534,2026-05-08,English,0.16,"merit_based,need_based","The Computer Science program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",400.0,Very High,1810,Moderate,69,0.93
+ger-139,Humboldt University,Germany,Data Science,bachelors,352,2026-06-12,English,0.3,merit_based,"The Data Science program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,1873,Challenging,46,0.88
+ger-140,Humboldt University,Germany,Data Science,masters,1881,2026-06-24,German,0.12,"merit_based,need_based","The Data Science program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Good,1896,Challenging,80,0.72
+ger-141,Humboldt University,Germany,Renewable Energy,bachelors,2179,2026-07-19,German,0.27,"need_based,merit_based","The Renewable Energy program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",294.0,Medium,1870,Challenging,40,0.74
+ger-142,Humboldt University,Germany,Renewable Energy,masters,2925,2026-04-08,English,0.17,"merit_based,need_based","The Renewable Energy program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,2127,Challenging,54,0.92
+ger-143,Humboldt University,Germany,Business Analytics,bachelors,1797,2026-04-09,German,0.4,"need_based,merit_based","The Business Analytics program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",198.0,High,1136,Moderate,60,0.82
+ger-144,Humboldt University,Germany,Business Analytics,masters,924,2026-05-31,German,0.32,"merit_based,need_based","The Business Analytics program at Humboldt University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",324.0,Good,1621,Easy,78,0.77
+aus-145,ANU,Australia,Computer Science,bachelors,43828,2026-03-27,English,0.15,merit_based,"The Computer Science program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",238.0,Very High,2408,Challenging,46,0.8
+aus-146,ANU,Australia,Computer Science,masters,31858,2026-01-01,English,0.45,"merit_based,need_based,commonwealth","The Computer Science program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",437.0,High,1795,Challenging,33,0.95
+aus-147,ANU,Australia,Data Science,bachelors,37760,2026-05-24,English,0.38,"need_based,commonwealth,merit_based","The Data Science program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",263.0,Medium,2377,Challenging,69,0.84
+aus-148,ANU,Australia,Data Science,masters,38014,2026-10-11,English,0.25,"need_based,merit_based","The Data Science program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",189.0,Medium,1006,Challenging,30,0.85
+aus-149,ANU,Australia,Renewable Energy,bachelors,28306,2025-12-21,English,0.12,merit_based,"The Renewable Energy program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",189.0,Good,1369,Moderate,69,0.81
+aus-150,ANU,Australia,Renewable Energy,masters,44792,2026-06-02,English,0.26,"merit_based,need_based,commonwealth","The Renewable Energy program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",400.0,Very High,2027,Easy,16,0.78
+aus-151,ANU,Australia,Business Analytics,bachelors,36588,2026-04-25,English,0.11,"merit_based,commonwealth","The Business Analytics program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",37.0,Good,1463,Moderate,74,0.91
+aus-152,ANU,Australia,Business Analytics,masters,43454,2026-05-01,English,0.22,"merit_based,need_based","The Business Analytics program at ANU offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",192.0,Good,1041,Challenging,55,0.94
+aus-153,University of Melbourne,Australia,Computer Science,bachelors,34542,2026-08-23,English,0.33,"merit_based,need_based,commonwealth","The Computer Science program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",131.0,High,1591,Easy,48,0.85
+aus-154,University of Melbourne,Australia,Computer Science,masters,41696,2026-08-07,English,0.27,"need_based,merit_based","The Computer Science program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",500.0,Very High,1257,Easy,50,0.81
+aus-155,University of Melbourne,Australia,Data Science,bachelors,29789,2026-07-30,English,0.12,merit_based,"The Data Science program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",226.0,Good,1326,Challenging,76,0.71
+aus-156,University of Melbourne,Australia,Data Science,masters,43566,2026-10-19,English,0.25,merit_based,"The Data Science program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",418.0,Very High,1678,Moderate,74,0.85
+aus-157,University of Melbourne,Australia,Renewable Energy,bachelors,33919,2026-02-01,English,0.08,merit_based,"The Renewable Energy program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",127.0,High,2365,Moderate,65,0.84
+aus-158,University of Melbourne,Australia,Renewable Energy,masters,33821,2026-03-20,English,0.41,"merit_based,commonwealth","The Renewable Energy program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",241.0,Medium,1025,Easy,78,0.7
+aus-159,University of Melbourne,Australia,Business Analytics,bachelors,31484,2026-02-01,English,0.33,merit_based,"The Business Analytics program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",245.0,Medium,1102,Challenging,53,0.93
+aus-160,University of Melbourne,Australia,Business Analytics,masters,43488,2026-09-04,English,0.32,"commonwealth,merit_based","The Business Analytics program at University of Melbourne offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,1909,Moderate,40,0.71
+aus-161,UNSW,Australia,Computer Science,bachelors,29868,2026-04-30,English,0.15,"merit_based,need_based","The Computer Science program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,1372,Easy,42,0.83
+aus-162,UNSW,Australia,Computer Science,masters,26556,2026-06-27,English,0.06,"merit_based,commonwealth","The Computer Science program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",309.0,Very High,1473,Easy,60,0.92
+aus-163,UNSW,Australia,Data Science,bachelors,26371,2026-09-15,English,0.21,"need_based,commonwealth,merit_based","The Data Science program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,1597,Easy,46,0.78
+aus-164,UNSW,Australia,Data Science,masters,38571,2026-08-13,English,0.26,merit_based,"The Data Science program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",411.0,Medium,2490,Easy,15,0.89
+aus-165,UNSW,Australia,Renewable Energy,bachelors,30791,2025-12-29,English,0.13,"need_based,merit_based","The Renewable Energy program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",241.0,Medium,1915,Moderate,67,0.81
+aus-166,UNSW,Australia,Renewable Energy,masters,42889,2026-08-10,English,0.15,"merit_based,need_based,commonwealth","The Renewable Energy program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",497.0,Very High,1784,Easy,78,0.92
+aus-167,UNSW,Australia,Business Analytics,bachelors,36546,2026-05-24,English,0.07,merit_based,"The Business Analytics program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",463.0,Very High,2321,Challenging,72,0.72
+aus-168,UNSW,Australia,Business Analytics,masters,29868,2025-12-19,English,0.21,merit_based,"The Business Analytics program at UNSW offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",269.0,High,2207,Easy,63,0.93
+aus-169,Monash University,Australia,Computer Science,bachelors,28296,2026-03-22,English,0.4,"need_based,merit_based","The Computer Science program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",497.0,High,1227,Challenging,26,0.7
+aus-170,Monash University,Australia,Computer Science,masters,31844,2026-08-31,English,0.25,merit_based,"The Computer Science program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",95.0,High,1182,Easy,78,0.71
+aus-171,Monash University,Australia,Data Science,bachelors,43447,2026-03-11,English,0.24,"need_based,merit_based","The Data Science program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,2464,Easy,18,0.78
+aus-172,Monash University,Australia,Data Science,masters,28172,2026-06-09,English,0.3,merit_based,"The Data Science program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,1882,Moderate,32,0.73
+aus-173,Monash University,Australia,Renewable Energy,bachelors,25076,2026-07-07,English,0.07,"merit_based,need_based","The Renewable Energy program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",109.0,High,1659,Moderate,69,0.94
+aus-174,Monash University,Australia,Renewable Energy,masters,44211,2026-07-10,English,0.22,merit_based,"The Renewable Energy program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2120,Easy,27,0.77
+aus-175,Monash University,Australia,Business Analytics,bachelors,26268,2026-05-26,English,0.33,merit_based,"The Business Analytics program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,1740,Easy,48,0.86
+aus-176,Monash University,Australia,Business Analytics,masters,38002,2026-02-10,English,0.12,merit_based,"The Business Analytics program at Monash University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,1693,Moderate,30,0.7
+net-177,TU Delft,Netherlands,Computer Science,bachelors,14496,2026-04-11,Dutch,0.09,merit_based,"The Computer Science program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",293.0,Medium,1591,Challenging,50,0.91
+net-178,TU Delft,Netherlands,Computer Science,masters,16045,2026-05-08,Dutch,0.18,merit_based,"The Computer Science program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",407.0,Very High,887,Challenging,17,0.83
+net-179,TU Delft,Netherlands,Data Science,bachelors,8236,2026-01-29,Dutch,0.16,"merit_based,need_based","The Data Science program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",254.0,Very High,1996,Challenging,16,0.9
+net-180,TU Delft,Netherlands,Data Science,masters,16997,2025-11-27,Dutch,0.06,"merit_based,need_based","The Data Science program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",116.0,Medium,875,Easy,57,0.85
+net-181,TU Delft,Netherlands,Renewable Energy,bachelors,15816,2026-01-21,English,0.23,merit_based,"The Renewable Energy program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",338.0,Medium,1783,Easy,37,0.91
+net-182,TU Delft,Netherlands,Renewable Energy,masters,13392,2026-08-08,English,0.22,"merit_based,need_based","The Renewable Energy program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",316.0,Medium,1486,Easy,17,0.77
+net-183,TU Delft,Netherlands,Business Analytics,bachelors,11453,2026-03-05,Dutch,0.29,merit_based,"The Business Analytics program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",224.0,High,1483,Challenging,32,0.86
+net-184,TU Delft,Netherlands,Business Analytics,masters,10425,2026-02-25,English,0.15,merit_based,"The Business Analytics program at TU Delft offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",296.0,High,2186,Moderate,36,0.72
+net-185,University of Amsterdam,Netherlands,Computer Science,bachelors,16582,2026-10-23,Dutch,0.36,merit_based,"The Computer Science program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",325.0,Very High,1570,Moderate,40,0.85
+net-186,University of Amsterdam,Netherlands,Computer Science,masters,17384,2026-04-28,English,0.35,merit_based,"The Computer Science program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",212.0,Very High,1610,Moderate,29,0.91
+net-187,University of Amsterdam,Netherlands,Data Science,bachelors,11392,2026-03-14,Dutch,0.42,merit_based,"The Data Science program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",387.0,Medium,1553,Moderate,69,0.73
+net-188,University of Amsterdam,Netherlands,Data Science,masters,9517,2026-06-15,Dutch,0.31,merit_based,"The Data Science program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",60.0,Good,2213,Easy,44,0.85
+net-189,University of Amsterdam,Netherlands,Renewable Energy,bachelors,14309,2026-05-05,Dutch,0.41,merit_based,"The Renewable Energy program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",224.0,Good,1937,Moderate,77,0.78
+net-190,University of Amsterdam,Netherlands,Renewable Energy,masters,9713,2026-04-15,Dutch,0.38,merit_based,"The Renewable Energy program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,1935,Moderate,74,0.8
+net-191,University of Amsterdam,Netherlands,Business Analytics,bachelors,16402,2026-02-18,Dutch,0.34,merit_based,"The Business Analytics program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",31.0,Very High,1566,Moderate,46,0.86
+net-192,University of Amsterdam,Netherlands,Business Analytics,masters,16600,2025-12-25,Dutch,0.42,"merit_based,need_based","The Business Analytics program at University of Amsterdam offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,2324,Challenging,39,0.93
+net-193,Eindhoven University,Netherlands,Computer Science,bachelors,8681,2026-02-06,Dutch,0.44,merit_based,"The Computer Science program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",498.0,Good,2109,Moderate,37,0.75
+net-194,Eindhoven University,Netherlands,Computer Science,masters,18729,2026-05-06,English,0.08,merit_based,"The Computer Science program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",224.0,Good,2306,Moderate,26,0.81
+net-195,Eindhoven University,Netherlands,Data Science,bachelors,17061,2026-01-29,English,0.33,merit_based,"The Data Science program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1043,Moderate,42,0.86
+net-196,Eindhoven University,Netherlands,Data Science,masters,11544,2026-06-14,Dutch,0.25,merit_based,"The Data Science program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,2031,Challenging,18,0.75
+net-197,Eindhoven University,Netherlands,Renewable Energy,bachelors,19543,2026-02-23,English,0.36,"merit_based,need_based","The Renewable Energy program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Very High,2152,Challenging,74,0.87
+net-198,Eindhoven University,Netherlands,Renewable Energy,masters,15872,2026-06-28,Dutch,0.33,"merit_based,need_based","The Renewable Energy program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",42.0,Good,2186,Easy,33,0.78
+net-199,Eindhoven University,Netherlands,Business Analytics,bachelors,12827,2026-05-21,Dutch,0.24,merit_based,"The Business Analytics program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1447,Challenging,21,0.92
+net-200,Eindhoven University,Netherlands,Business Analytics,masters,11737,2026-01-28,Dutch,0.28,merit_based,"The Business Analytics program at Eindhoven University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,1043,Challenging,66,0.81
+net-201,Leiden University,Netherlands,Computer Science,bachelors,15432,2026-09-24,English,0.31,merit_based,"The Computer Science program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",107.0,Good,951,Moderate,34,0.79
+net-202,Leiden University,Netherlands,Computer Science,masters,15292,2026-02-19,Dutch,0.38,merit_based,"The Computer Science program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Good,2242,Easy,44,0.91
+net-203,Leiden University,Netherlands,Data Science,bachelors,11425,2025-12-04,Dutch,0.44,merit_based,"The Data Science program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,High,1127,Challenging,58,0.72
+net-204,Leiden University,Netherlands,Data Science,masters,12772,2026-09-25,Dutch,0.27,"need_based,merit_based","The Data Science program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,1569,Easy,51,0.75
+net-205,Leiden University,Netherlands,Renewable Energy,bachelors,11826,2026-01-22,English,0.27,"merit_based,need_based","The Renewable Energy program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",475.0,High,838,Moderate,28,0.93
+net-206,Leiden University,Netherlands,Renewable Energy,masters,13011,2026-03-13,Dutch,0.45,merit_based,"The Renewable Energy program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",150.0,Very High,1131,Moderate,33,0.73
+net-207,Leiden University,Netherlands,Business Analytics,bachelors,18189,2025-12-09,English,0.43,"merit_based,need_based","The Business Analytics program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",196.0,Very High,1744,Challenging,28,0.79
+net-208,Leiden University,Netherlands,Business Analytics,masters,18049,2026-08-23,English,0.25,merit_based,"The Business Analytics program at Leiden University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,1762,Easy,16,0.83
+swe-209,KTH Royal Institute,Sweden,Computer Science,bachelors,2581,2026-01-18,English,0.29,merit_based,"The Computer Science program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",288.0,High,848,Challenging,49,0.91
+swe-210,KTH Royal Institute,Sweden,Computer Science,masters,12924,2026-10-06,Swedish,0.28,"merit_based,need_based","The Computer Science program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,951,Moderate,72,0.87
+swe-211,KTH Royal Institute,Sweden,Data Science,bachelors,153,2026-06-06,English,0.45,merit_based,"The Data Science program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",462.0,Medium,1346,Easy,51,0.76
+swe-212,KTH Royal Institute,Sweden,Data Science,masters,7621,2026-03-17,English,0.24,merit_based,"The Data Science program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",410.0,Good,1925,Moderate,45,0.71
+swe-213,KTH Royal Institute,Sweden,Renewable Energy,bachelors,1402,2026-06-12,Swedish,0.17,merit_based,"The Renewable Energy program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",90.0,Very High,1947,Challenging,79,0.88
+swe-214,KTH Royal Institute,Sweden,Renewable Energy,masters,3281,2026-05-05,English,0.18,merit_based,"The Renewable Energy program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,1137,Challenging,69,0.86
+swe-215,KTH Royal Institute,Sweden,Business Analytics,bachelors,13137,2026-06-06,Swedish,0.1,merit_based,"The Business Analytics program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",371.0,Very High,1889,Challenging,44,0.84
+swe-216,KTH Royal Institute,Sweden,Business Analytics,masters,10212,2026-05-20,English,0.29,merit_based,"The Business Analytics program at KTH Royal Institute offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Medium,2328,Moderate,20,0.78
+swe-217,Lund University,Sweden,Computer Science,bachelors,6104,2026-09-09,Swedish,0.23,merit_based,"The Computer Science program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",90.0,Medium,2301,Challenging,55,0.8
+swe-218,Lund University,Sweden,Computer Science,masters,10261,2026-04-04,Swedish,0.29,"need_based,merit_based","The Computer Science program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,1315,Moderate,68,0.85
+swe-219,Lund University,Sweden,Data Science,bachelors,3710,2026-08-10,Swedish,0.28,merit_based,"The Data Science program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",354.0,Medium,2387,Easy,65,0.82
+swe-220,Lund University,Sweden,Data Science,masters,12254,2026-03-28,English,0.11,"need_based,merit_based","The Data Science program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",44.0,Very High,1539,Easy,20,0.91
+swe-221,Lund University,Sweden,Renewable Energy,bachelors,12836,2026-08-12,English,0.33,"need_based,merit_based","The Renewable Energy program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",378.0,Very High,2338,Moderate,29,0.71
+swe-222,Lund University,Sweden,Renewable Energy,masters,11835,2026-05-21,Swedish,0.26,merit_based,"The Renewable Energy program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",110.0,Medium,2176,Moderate,36,0.8
+swe-223,Lund University,Sweden,Business Analytics,bachelors,13686,2026-07-27,Swedish,0.23,"merit_based,need_based","The Business Analytics program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,2357,Easy,64,0.82
+swe-224,Lund University,Sweden,Business Analytics,masters,14345,2026-09-24,English,0.06,merit_based,"The Business Analytics program at Lund University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",189.0,Very High,2228,Easy,60,0.91
+swe-225,Uppsala University,Sweden,Computer Science,bachelors,13586,2026-06-25,Swedish,0.17,merit_based,"The Computer Science program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",35.0,Good,2016,Challenging,75,0.72
+swe-226,Uppsala University,Sweden,Computer Science,masters,10257,2026-08-05,English,0.06,merit_based,"The Computer Science program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",339.0,Medium,1638,Challenging,34,0.92
+swe-227,Uppsala University,Sweden,Data Science,bachelors,14552,2026-10-18,English,0.2,"merit_based,need_based","The Data Science program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Good,2320,Moderate,59,0.88
+swe-228,Uppsala University,Sweden,Data Science,masters,93,2026-03-29,Swedish,0.32,"merit_based,need_based","The Data Science program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,High,2298,Moderate,69,0.78
+swe-229,Uppsala University,Sweden,Renewable Energy,bachelors,10525,2026-08-02,Swedish,0.19,merit_based,"The Renewable Energy program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",190.0,High,939,Moderate,35,0.85
+swe-230,Uppsala University,Sweden,Renewable Energy,masters,10675,2025-12-03,Swedish,0.44,merit_based,"The Renewable Energy program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Good,1516,Moderate,40,0.89
+swe-231,Uppsala University,Sweden,Business Analytics,bachelors,7009,2026-06-09,English,0.26,merit_based,"The Business Analytics program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes foundational skills
+                    and prepares graduates for successful careers.
+
+                    Entry requirements: High school diploma with strong grades in relevant subjects.
+
+                    Career prospects: Graduates typically find positions in entry to mid-level positions across various industries.",,Medium,1630,Easy,29,0.92
+swe-232,Uppsala University,Sweden,Business Analytics,masters,7383,2026-05-11,English,0.21,merit_based,"The Business Analytics program at Uppsala University offers a cutting-edge curriculum focusing on
+                    theoretical foundations and practical applications. Students benefit from world-class
+                    faculty, state-of-the-art research facilities, and strong industry connections.
+                    The program emphasizes research methodology
+                    and prepares graduates for advanced research or industry leadership.
+
+                    Entry requirements: Bachelor degree with 2:1 or equivalent, relevant experience preferred.
+
+                    Career prospects: Graduates typically find positions in senior roles at tech companies, research institutions, or pursue PhD studies.",,Very High,2369,Easy,68,0.71

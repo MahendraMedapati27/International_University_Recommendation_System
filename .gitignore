@@ -52,7 +52,8 @@ logs/
 
 # Data files (keep structure but not large files)
 data/processed/embeddings/*.pkl
-data/raw/*.csv
+# Allow sample data file
+!data/raw/universities_sample.csv
 
 # Jupyter Notebook
 .ipynb_checkpoints
