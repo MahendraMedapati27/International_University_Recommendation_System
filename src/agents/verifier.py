@@ -131,6 +131,27 @@ class VerifierAgent:
         
         return "\n".join(items)
     
+    def verify_deadlines(self, matches: List[Dict]) -> List[Dict]:
+        """Verify deadlines - matches article structure"""
+        from datetime import datetime
+        today = datetime.now().date()
+        issues = []
+        
+        for m in matches:
+            try:
+                deadline_str = m.get('deadline', '')
+                if deadline_str:
+                    deadline = datetime.fromisoformat(deadline_str).date()
+                    if deadline < today:
+                        issues.append({
+                            'university': m.get('univ_name', 'Unknown'),
+                            'issue': 'Deadline passed'
+                        })
+            except:
+                pass
+        
+        return issues
+
     def verify_deadline(self, deadline_str: str) -> Dict:
         """
         Verify if a deadline is valid and provides adequate time

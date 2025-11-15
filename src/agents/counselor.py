@@ -16,6 +16,55 @@ class CounselorAgent:
             allow_delegation=False
         )
 
+    def create_plan(self, matches: List[Dict], student_profile: Dict) -> str:
+        """Create application plan - matches article structure"""
+        name = student_profile.get('name', 'Student')
+        target_countries = student_profile.get('target_countries', [])
+        
+        # Handle countries - could be list or string
+        if isinstance(target_countries, str):
+            countries_list = [c.strip() for c in target_countries.split(',') if c.strip()]
+        elif isinstance(target_countries, list):
+            countries_list = [str(c).strip() for c in target_countries if c]
+        else:
+            countries_list = []
+        
+        first_country = countries_list[0] if countries_list else 'target countries'
+        num_matches = len(matches) if matches else 0
+        
+        num_countries = len(countries_list) if countries_list else 1
+        country_word = 'countries' if num_countries > 1 else 'country'
+        
+        plan = f"""
+### Application Plan for {name}
+
+**Overview:**
+- Target {num_matches} programs across {num_countries} {country_word}.
+
+**Immediate Actions (Next 3 Months):**
+- Schedule IELTS/GRE/TOEFL tests within 3 months
+- Prepare Statement of Purpose (SOP) draft
+- Request Recommendation Letters (LOR) from professors/employers
+- Research scholarship opportunities for {first_country}
+
+**Application Timeline:**
+- Month 1-2: Complete language tests and gather documents
+- Month 3-4: Finalize SOP and submit applications
+- Month 5-6: Follow up on applications and prepare for interviews
+- Month 7-8: Receive decisions and prepare visa documents
+
+**Key Deadlines:**
+- Check individual university deadlines (typically {first_country} deadlines are 6-12 months before program start)
+- Scholarship applications often have earlier deadlines
+
+**Next Steps:**
+1. Review the recommended universities below
+2. Visit official university websites to verify current deadlines
+3. Start preparing required documents
+4. Apply for scholarships in parallel with university applications
+"""
+        return plan
+
     def create_advisory_task(self, student_profile: Dict, matched_universities: List) -> Task:
         """Create task to generate personalized advice"""
         return Task(

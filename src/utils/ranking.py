@@ -32,6 +32,22 @@ class UniversityRanker:
 
     def calculate_financial_fit(self, tuition: int, budget: int, living_cost: int) -> float:
         """Calculate financial fit score"""
+        # Convert all to numeric values
+        try:
+            if isinstance(tuition, str):
+                tuition = float(tuition) if tuition and tuition != 'N/A' else 0
+            if isinstance(budget, str):
+                budget = float(budget) if budget and budget != 'N/A' else 50000
+            if isinstance(living_cost, str):
+                living_cost = float(living_cost) if living_cost and living_cost != 'N/A' else 0
+            
+            # Ensure they're numeric
+            tuition = float(tuition) if isinstance(tuition, (int, float)) else 0
+            budget = float(budget) if isinstance(budget, (int, float)) else 50000
+            living_cost = float(living_cost) if isinstance(living_cost, (int, float)) else 0
+        except (ValueError, TypeError):
+            return 0.5  # Default score if conversion fails
+        
         total_cost = tuition + (living_cost * 12)  # Annual living cost
 
         if total_cost <= budget:
@@ -75,22 +91,59 @@ class UniversityRanker:
         """Main ranking function"""
         student_strength = self._calculate_student_strength(student_profile)
         budget = student_profile.get('budget', 50000)
+        
+        # Convert budget to numeric
+        if isinstance(budget, str):
+            try:
+                budget = float(budget)
+            except (ValueError, TypeError):
+                budget = 50000
+        elif not isinstance(budget, (int, float)):
+            budget = 50000
 
         for uni in universities:
+            # Safely extract and convert values
+            similarity_score = uni.get('similarity_score', 0)
+            if isinstance(similarity_score, str):
+                try:
+                    similarity_score = float(similarity_score)
+                except (ValueError, TypeError):
+                    similarity_score = 0
+            
+            acceptance_rate = uni.get('acceptance_rate', 0.5)
+            if isinstance(acceptance_rate, str):
+                try:
+                    acceptance_rate = float(acceptance_rate)
+                except (ValueError, TypeError):
+                    acceptance_rate = 0.5
+            
+            tuition = uni.get('tuition_usd', 0)
+            living_cost = uni.get('living_cost_monthly', 0)
+            research_output = uni.get('research_output', 'Medium')
+            employment_rate = uni.get('employment_rate_6mo', 0.5)
+            deadline = uni.get('deadline', '')
+            
+            # Convert employment rate if needed
+            if isinstance(employment_rate, str):
+                try:
+                    employment_rate = float(employment_rate)
+                except (ValueError, TypeError):
+                    employment_rate = 0.5
+            
             scores = {
-                'semantic': uni['similarity_score'],
+                'semantic': similarity_score,
                 'acceptance_fit': self.calculate_acceptance_fit(
-                    uni['acceptance_rate'],
+                    acceptance_rate,
                     student_strength
                 ),
                 'financial_fit': self.calculate_financial_fit(
-                    uni['tuition_usd'],
+                    tuition,
                     budget,
-                    uni['living_cost_monthly']
+                    living_cost
                 ),
-                'research': self.calculate_research_score(uni['research_output']),
-                'employment': uni['employment_rate_6mo'],
-                'deadline': self.calculate_deadline_score(uni['deadline'])
+                'research': self.calculate_research_score(research_output),
+                'employment': employment_rate,
+                'deadline': self.calculate_deadline_score(deadline)
             }
 
             # Weighted total score
@@ -117,6 +170,16 @@ class UniversityRanker:
     def _calculate_student_strength(self, profile: Dict) -> float:
         """Estimate student strength from profile (0–1 scale)"""
         gpa = profile.get('gpa', 3.0)
+        
+        # Convert GPA to float if it's a string
+        if isinstance(gpa, str):
+            try:
+                gpa = float(gpa)
+            except (ValueError, TypeError):
+                gpa = 3.0
+        elif not isinstance(gpa, (int, float)):
+            gpa = 3.0
+        
         work_exp = len(profile.get('work_experience', '').split()) > 5
 
         # Normalize GPA to 0–1 (assuming 4.0 scale)
