@@ -97,10 +97,13 @@ CrewAI Orchestrator
 ```
 
 ### Pipeline Flow
-1. **Research Layer**: Enriches profile with country-specific requirements (visa, language, timelines)
-2. **Vector Layer**: Qdrant stores program embeddings using cosine similarity and HNSW indexing
-3. **Agent Layer**: CrewAI coordinates four specialized agents in sequential workflow
-4. **Application Layer**: Streamlit interface for user input and visualization
+1. **Research Layer**: Researcher agent enriches profile with country-specific requirements (visa, language, timelines, cost of living)
+2. **Vector Layer**: Qdrant stores program embeddings using cosine similarity and HNSW indexing (384 dimensions, all-MiniLM-L6-v2)
+3. **Matching Layer**: Matcher agent queries Qdrant with progressive filter relaxation to find candidates
+4. **Guidance Layer**: Counselor agent creates application plans and timelines
+5. **Verification Layer**: Verifier agent validates deadlines and data accuracy
+6. **Ranking Layer**: UniversityRanker utility applies weighted scoring and categorizes results
+7. **Application Layer**: Streamlit interface displays recommendations with visualizations
 
 ## 🤖 Multi-Agent System (CrewAI)
 
@@ -108,29 +111,48 @@ CrewAI Orchestrator
 
 | Agent | Role | Responsibilities |
 |-------|------|------------------|
-| **🔍 Researcher** | Data Enrichment | Fetches & enriches data, normalizes deadlines, extracts financials |
-| **🎯 Matcher** | Candidate Discovery | Converts profile → embedding, queries Qdrant, gathers top candidates |
-| **📊 Scorer** | Ranking & Scoring | Applies business rules, financial fit, visa likelihood, language match |
-| **💡 Counselor** | Guidance & Advice | Crafts human-readable advice, compares choices, explains tradeoffs |
-| **✅ Verifier** | Quality Assurance | Validates critical facts, flags low-confidence items, double-checks deadlines |
+| **🔍 Researcher** | Data Enrichment | Gathers country-specific requirements (visa, language, timelines, cost of living) |
+| **🎯 Matcher** | Candidate Discovery | Converts profile → embedding, queries Qdrant with progressive filter relaxation, gathers top candidates |
+| **💡 Counselor** | Guidance & Advice | Creates application plans, provides timelines, explains tradeoffs, suggests next steps |
+| **✅ Verifier** | Quality Assurance | Validates deadlines, checks scholarship eligibility, flags outdated information |
+
+**Note**: Ranking and scoring are handled by the `UniversityRanker` utility class (not a separate agent), which applies business rules, financial fit, visa likelihood, and academic match scoring.
 
 ### Agent Workflow
 
-```mermaid
-graph TD
-    A[User Profile] --> B[Researcher Agent]
-    B --> C[Matcher Agent]
-    C --> D[Scorer Agent]
-    D --> E[Counselor Agent]
-    E --> F[Verifier Agent]
-    F --> G[Final Recommendations]
-    
-    B --> H[Country Constraints]
-    C --> I[Qdrant Search]
-    D --> J[Business Rules]
-    E --> K[Action Timeline]
-    F --> L[Fact Check]
+The pipeline follows a **sequential workflow** matching the article's design:
+
 ```
+1. Researcher Agent
+   └─> Enriches profile with country-specific requirements
+       (visa type, processing time, language requirements, cost of living)
+
+2. Matcher Agent  
+   └─> Queries Qdrant with semantic search
+       └─> Progressive filter relaxation (5 attempts)
+       └─> Returns top 20 candidates
+
+3. Counselor Agent
+   └─> Creates application plan with timelines
+       └─> Provides actionable guidance
+
+4. Verifier Agent
+   └─> Validates deadlines and data accuracy
+       └─> Flags issues and low-confidence items
+
+5. Ranking (UniversityRanker utility)
+   └─> Applies weighted scoring algorithm
+       └─> Categorizes as Reach/Target/Safety
+       └─> Balances portfolio (30% Reach, 40% Target, 30% Safety)
+```
+
+**Key Points:**
+- Agents work sequentially (not in parallel) - matches article's pipeline design
+- Ranking happens after agent processing via utility class
+- System includes fallback mechanisms at each step
+- Matcher uses `run_matcher()` method that directly queries Qdrant (matches article)
+- Counselor uses `create_plan()` method that generates application timelines (matches article)
+- Verifier uses `verify_deadlines()` method that checks deadline validity (matches article)
 
 ## 📊 Data Schema & Sources
 
@@ -146,16 +168,19 @@ graph TD
   "deadline": "2026-01-15",
   "language": "English",
   "acceptance_rate": 0.12,
-  "scholarship_tags": ["commonwealth", "dept_fellowship"],
+  "scholarship_tags": "commonwealth,dept_fellowship",
   "research_output": "High",
   "qs_ranking": 1,
   "living_cost_monthly": 1200,
   "visa_difficulty": "Medium",
+  "avg_class_size": 50,
   "employment_rate_6mo": 0.95,
   "description": "Admissions requirements...",
-  "search_text": "Oxford University MSc Renewable Energy UK masters..."
+  "search_text": "Oxford University | MSc Renewable Energy | Admissions requirements..."
 }
 ```
+
+**Note**: The `search_text` field follows the article's format: `"univ_name | program | description"` for optimal semantic search.
 
 ### Data Sources
 - **Official university catalogs** (course pages, entry requirements)
@@ -246,7 +271,7 @@ This ensures users always get results, even with very restrictive criteria.
 - **Database**: 232 university programs indexed
 - **Search Speed**: < 200ms for semantic search queries
 - **Accuracy**: 80% precision improvement over keyword-based search (as per article)
-- **Coverage**: 7+ countries, 2000+ programs, multiple study levels
+- **Coverage**: 7+ countries (USA, UK, Canada, Germany, Australia, Netherlands, Sweden), 232+ programs, multiple study levels
 - **Reliability**: 100% uptime with fallback mechanisms
 
 ### Performance Comparison (from Article)
@@ -283,11 +308,12 @@ This ensures users always get results, even with very restrictive criteria.
 ## 🛠️ Technical Implementation
 
 ### Core Technologies
-- **Vector Database**: Qdrant for semantic search and filtering
+- **Vector Database**: Qdrant for semantic search and filtering (cosine similarity, HNSW indexing)
 - **LLM Integration**: Groq API with Llama models (llama-3.1-8b-instant) for agent reasoning
-- **Agent Framework**: CrewAI for multi-agent orchestration
+- **Agent Framework**: CrewAI for multi-agent orchestration (sequential pipeline)
 - **Frontend**: Streamlit for interactive web interface
-- **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2) for semantic similarity
+- **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2, 384 dimensions) for semantic similarity
+- **Ranking System**: Custom UniversityRanker utility with weighted scoring algorithm
 
 ### Key Improvements & Features
 
@@ -319,31 +345,61 @@ This ensures users always get results, even with very restrictive criteria.
 ```
 University_recommender/
 ├── app/
-│   └── streamlit_app.py          # Main Streamlit application
+│   └── streamlit_app.py              # Main Streamlit application with enhanced error handling
 ├── src/
-│   ├── agents/                   # AI agents
-│   │   ├── researcher.py        # Data enrichment agent
-│   │   ├── matcher.py           # Candidate matching agent
-│   │   ├── counselor.py         # Guidance agent
-│   │   └── verifier.py          # Quality assurance agent
+│   ├── agents/                       # AI agents (matches article structure)
+│   │   ├── researcher.py            # Data enrichment agent (RESEARCHER_TMPL template)
+│   │   ├── matcher.py                # Candidate matching agent (run_matcher method)
+│   │   ├── counselor.py              # Guidance agent (create_plan method)
+│   │   └── verifier.py               # Quality assurance agent (verify_deadlines method)
 │   ├── crew/
-│   │   └── coordinator.py       # CrewAI orchestration
+│   │   └── coordinator.py            # Pipeline orchestration (UniversityRecommendationPipeline)
 │   ├── database/
-│   │   └── qdrant_client.py     # Database operations
+│   │   └── qdrant_client.py         # Qdrant operations (matches article implementation)
 │   └── utils/
-│       ├── groq_llm.py         # LLM integration
-│       └── ranking.py           # Ranking algorithms
+│       ├── groq_llm.py               # Groq LLM integration (CrewAI compatible)
+│       └── ranking.py                # Ranking algorithms (UniversityRanker class)
 ├── data/
 │   ├── raw/
 │   │   └── universities_sample.csv  # Sample university data (232 programs)
 │   └── processed/
-│       └── embeddings/              # Cached embeddings
-├── init_system.py                   # System initialization
-├── generate_sample_data.py          # Data generation script
-├── fix_qdrant_collection.py         # Collection repair utility
-├── test_qdrant_connection.py       # Connection testing utility
-└── requirements.txt                 # Dependencies
+│       └── embeddings/                 # Cached embeddings
+├── init_system.py                     # System initialization
+├── generate_sample_data.py            # Data generation script
+├── fix_qdrant_collection.py           # Collection repair utility
+├── test_qdrant_connection.py          # Connection testing utility
+└── requirements.txt                   # Dependencies
 ```
+
+### Implementation Details (Matching Article)
+
+#### Qdrant Client (`src/database/qdrant_client.py`)
+- Uses `recreate_collection()` for collection management
+- Search text format: `"univ_name | program | description"` (matches article)
+- Search method: `search_universities(query, filters, limit)` with `MatchAny` for countries
+- Vector size: 384 dimensions (all-MiniLM-L6-v2)
+- Distance metric: Cosine similarity
+
+#### Matcher Agent (`src/agents/matcher.py`)
+- Method: `run_matcher(student_profile, research_json)` - matches article
+- Query building: `f"{program} {', '.join(interests)}"`
+- Progressive filter relaxation: 5 search attempts with decreasing filter strictness
+- Returns: List of university dictionaries with similarity scores
+
+#### Counselor Agent (`src/agents/counselor.py`)
+- Method: `create_plan(matches, student_profile)` - matches article
+- Generates: Application timeline, action items, deadlines
+- Format: Markdown with structured sections
+
+#### Verifier Agent (`src/agents/verifier.py`)
+- Method: `verify_deadlines(matches)` - matches article
+- Checks: Deadline validity, cost accuracy, scholarship eligibility
+- Returns: List of issues found
+
+#### Pipeline Coordinator (`src/crew/coordinator.py`)
+- Class: `UniversityRecommendationPipeline` - matches article structure
+- Flow: Research → Match → Plan → Verify (sequential)
+- Returns: Dictionary with profile, research, matches, plan, and issues
 
 ## 🔧 Configuration
 
