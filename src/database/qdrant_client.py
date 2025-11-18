@@ -17,7 +17,12 @@ logger = logging.getLogger(__name__)
 
 class UniversityVectorDB:
     def __init__(self):
-        """Initialize Qdrant client and embedding model"""
+        """
+        Initialize Qdrant client and embedding model.
+        
+        Raises:
+            ConnectionError: If unable to connect to Qdrant server
+        """
         try:
             self.client = QdrantClient(
                 host=os.getenv('QDRANT_HOST', 'localhost'),
@@ -83,72 +88,115 @@ class UniversityVectorDB:
         # Match article's format: "univ_name | program | description"
         return f"{row['univ_name']} | {row['program']} | {row['description']}"
 
-    def load_universities(self, csv_path: str):
-        """Load universities from CSV and index in Qdrant - matches article structure"""
-        df = pd.read_csv(csv_path)
+    def load_universities(self, csv_path: str) -> bool:
+        """Load universities from CSV and index in Qdrant - matches article structure
+        
+        Args:
+            csv_path: Path to the CSV file (can be relative or absolute)
+            
+        Returns:
+            bool: True if successful, False otherwise
+        """
+        try:
+            # Handle both relative and absolute paths
+            if not os.path.isabs(csv_path):
+                # If relative path, make it relative to project root
+                project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+                csv_path = os.path.join(project_root, csv_path)
+            
+            # Check if file exists
+            if not os.path.exists(csv_path):
+                logger.error(f"CSV file not found: {csv_path}")
+                return False
+            
+            logger.info(f"Loading data from: {csv_path}")
+            df = pd.read_csv(csv_path)
 
-        print(f"📥 Loading {len(df)} university programs...")
+            if df.empty:
+                logger.error("CSV file is empty")
+                return False
 
-        points = []
-        for idx, row in df.iterrows():
-            try:
-                # Create search text - matches article format
-                text = f"{row['univ_name']} | {row['program']} | {row['description']}"
-                
-                # Generate embedding
-                vector = self.encoder.encode(text).tolist()
-                
-                # Validate vector dimension
-                if len(vector) != self.vector_size:
-                    logger.error(f"Vector dimension mismatch at index {idx}: expected {self.vector_size}, got {len(vector)}")
+            print(f"📥 Loading {len(df)} university programs...")
+
+            points = []
+            for idx, row in df.iterrows():
+                try:
+                    # Create search text - matches article format
+                    text = f"{row['univ_name']} | {row['program']} | {row['description']}"
+                    
+                    # Generate embedding
+                    vector = self.encoder.encode(text).tolist()
+                    
+                    # Validate vector dimension
+                    if len(vector) != self.vector_size:
+                        logger.error(f"Vector dimension mismatch at index {idx}: expected {self.vector_size}, got {len(vector)}")
+                        continue
+
+                    # Prepare payload - ensure proper data types
+                    payload = {}
+                    for col in df.columns:
+                        value = row[col]
+                        # Convert pandas types to Python native types
+                        if pd.isna(value):
+                            payload[col] = None
+                        elif isinstance(value, (pd.Int64Dtype, pd.Int32Dtype)):
+                            payload[col] = int(value) if not pd.isna(value) else None
+                        elif isinstance(value, (pd.Float64Dtype, pd.Float32Dtype)):
+                            payload[col] = float(value) if not pd.isna(value) else None
+                        elif isinstance(value, pd.Timestamp):
+                            payload[col] = str(value)
+                        else:
+                            payload[col] = str(value) if value is not None else None
+                    
+                    payload['search_text'] = text
+
+                    point = PointStruct(
+                        id=int(idx),  # Ensure ID is int
+                        vector=vector,
+                        payload=payload
+                    )
+                    points.append(point)
+
+                    if (idx + 1) % 50 == 0:
+                        print(f"📦 Processed {idx + 1}/{len(df)} programs")
+                        
+                except Exception as e:
+                    logger.warning(f"Error processing row {idx}: {e}")
                     continue
 
-                # Prepare payload - ensure proper data types
-                payload = {}
-                for col in df.columns:
-                    value = row[col]
-                    # Convert pandas types to Python native types
-                    if pd.isna(value):
-                        payload[col] = None
-                    elif isinstance(value, (pd.Int64Dtype, pd.Int32Dtype)):
-                        payload[col] = int(value) if not pd.isna(value) else None
-                    elif isinstance(value, (pd.Float64Dtype, pd.Float32Dtype)):
-                        payload[col] = float(value) if not pd.isna(value) else None
-                    elif isinstance(value, pd.Timestamp):
-                        payload[col] = str(value)
-                    else:
-                        payload[col] = str(value) if value is not None else None
-                
-                payload['search_text'] = text
+            if not points:
+                logger.error("No valid points to index. Check your data file.")
+                return False
 
-                point = PointStruct(
-                    id=int(idx),  # Ensure ID is int
-                    vector=vector,
-                    payload=payload
-                )
-                points.append(point)
+            # Upload to Qdrant in batches to avoid memory issues
+            batch_size = 100
+            total_batches = (len(points) - 1) // batch_size + 1
+            for i in range(0, len(points), batch_size):
+                batch = points[i:i + batch_size]
+                try:
+                    self.client.upsert(
+                        collection_name=self.collection_name,
+                        points=batch
+                    )
+                    print(f"📤 Uploaded batch {i//batch_size + 1}/{total_batches}")
+                except Exception as e:
+                    logger.error(f"Error uploading batch {i//batch_size + 1}: {e}")
+                    return False
 
-                if (idx + 1) % 50 == 0:
-                    print(f"📦 Processed {idx + 1}/{len(df)} programs")
-                    
-            except Exception as e:
-                logger.warning(f"Error processing row {idx}: {e}")
-                continue
-
-        if not points:
-            raise ValueError("No valid points to index. Check your data file.")
-
-        # Upload to Qdrant in batches to avoid memory issues
-        batch_size = 100
-        for i in range(0, len(points), batch_size):
-            batch = points[i:i + batch_size]
-            self.client.upsert(
-                collection_name=self.collection_name,
-                points=batch
-            )
-            print(f"📤 Uploaded batch {i//batch_size + 1}/{(len(points)-1)//batch_size + 1}")
-
-        print(f"✅ Successfully indexed {len(points)} programs in Qdrant")
+            print(f"✅ Successfully indexed {len(points)} programs in Qdrant")
+            return True
+            
+        except FileNotFoundError:
+            logger.error(f"CSV file not found: {csv_path}")
+            return False
+        except pd.errors.EmptyDataError:
+            logger.error(f"CSV file is empty: {csv_path}")
+            return False
+        except Exception as e:
+            logger.error(f"Error loading universities: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
+            return False
 
     def search_universities(
         self,
@@ -214,18 +262,17 @@ class UniversityVectorDB:
             
             query_filter = Filter(must=must) if must else None
             
-            # Perform search - matches article
-            # Note: with_payload is True by default, so we don't need to specify it
-            results = self.client.search(
+            # Use query_points method - matches article format
+            results = self.client.query_points(
                 collection_name=self.collection_name,
-                query_vector=qvec,
+                query=qvec,
                 query_filter=query_filter,
                 limit=limit
             )
             
-            # Format results - matches article format
+            # Format results - iterate over results.points (matches article format)
             formatted_results = []
-            for r in results:
+            for r in results.points:
                 try:
                     # Ensure payload is a dict and add similarity score
                     payload = dict(r.payload) if r.payload else {}

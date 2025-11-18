@@ -18,10 +18,10 @@ from src.utils.ranking import UniversityRanker
 # Page Configuration
 # --------------------------- #
 st.set_page_config(
-    page_title="University Recommender",
+page_title="University Recommender",
     page_icon="🎓",
-    layout="wide",
-    initial_sidebar_state="expanded"
+layout="wide",
+initial_sidebar_state="expanded"
 )
 
 # --------------------------- #
@@ -30,14 +30,14 @@ st.set_page_config(
 st.markdown("""
 <style>
 .big-font {
-    font-size:30px!important;
-    font-weight: bold;
+font-size:30px!important;
+font-weight: bold;
 }
 .metric-card {
-    background-color: #f0f2f6;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px 0;
+background-color: #f0f2f6;
+padding: 20px;
+border-radius: 10px;
+margin: 10px 0;
     color: #1f2937;
 }
 .metric-card h3 {
@@ -48,11 +48,11 @@ st.markdown("""
     color: #374151 !important;
 }
 .stButton>button {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    height: 3em;
-    border-radius: 8px;
+width: 100%;
+background-color: #4CAF50;
+color: white;
+height: 3em;
+border-radius: 8px;
 }
 /* Dark theme compatibility */
 [data-testid="stAppViewContainer"] {
@@ -190,8 +190,8 @@ def display_university_card(uni: dict, rank: int):
     with st.container():
         st.markdown(f"""
         <div class='metric-card'>
-            <h3>{rank}. {emoji_map.get(uni.get('category', 'Target'), '')} {uni['univ_name']}</h3>
-            <p><strong>{uni['program']}</strong> ({uni['level'].title()})</p>
+                    <h3>{rank}. {emoji_map.get(uni.get('category', 'Target'), '')} {uni['univ_name']}</h3>
+        <p><strong>{uni['program']}</strong> ({uni['level'].title()})</p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -308,11 +308,11 @@ def display_university_card(uni: dict, rank: int):
 def visualize_recommendations(universities: list):
     """Visualize recommendation results"""
     st.subheader("🎓 Portfolio Overview")
-    
+
     if not universities or len(universities) == 0:
         st.warning("No recommendations to visualize.")
         return
-    
+
     df = pd.DataFrame(universities)
 
     col1, col2 = st.columns(2)
@@ -426,7 +426,7 @@ def main():
         except Exception as e:
             st.error(f"Database connection error: {str(e)}")
             st.metric("Universities Indexed", "Error")
-        
+
         if st.session_state.search_history:
             st.metric("Your Searches", len(st.session_state.search_history))
 
@@ -630,7 +630,7 @@ def main():
                                 st.session_state.recommendations = portfolio
                                 if profile not in st.session_state.search_history:
                                     st.session_state.search_history.append(profile)
-                                
+
                                 st.success(f"✅ Found {len(portfolio)} great matches for you!")
                                 st.balloons()
                                 

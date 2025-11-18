@@ -1,6 +1,7 @@
 from crewai import Agent, Task
 from typing import Dict, List
 import json
+import logging
 
 
 class MatcherAgent:
@@ -86,7 +87,6 @@ class MatcherAgent:
             clean_filters = {k: v for k, v in filters.items() if v is not None and v != []}
             
             try:
-                import logging
                 logging.info(f"Matcher attempt {attempt_num}: query='{query}', filters={clean_filters}")
                 results = self.vector_db.search_universities(query, clean_filters if clean_filters else None, limit=20)
                 if results and len(results) > 0:
@@ -95,18 +95,15 @@ class MatcherAgent:
                 else:
                     logging.info(f"Matcher attempt {attempt_num} returned 0 results")
             except Exception as e:
-                import logging
                 logging.warning(f"Matcher search attempt {attempt_num} failed: {e}")
                 continue
         
         # If all attempts failed, try a very basic search
         try:
-            import logging
             logging.info("Trying basic search without any filters")
             results = self.vector_db.search_universities(program or "university", None, limit=20)
             return results if results else []
         except Exception as e:
-            import logging
             logging.error(f"Matcher final search error: {e}")
             return []
 

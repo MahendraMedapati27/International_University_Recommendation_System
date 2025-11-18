@@ -6,9 +6,12 @@ from src.agents.verifier import VerifierAgent
 from typing import Dict
 import os
 import pandas as pd
+import logging
 from datetime import datetime
 from dotenv import load_dotenv
 load_dotenv()
+
+logger = logging.getLogger(__name__)
 
 
 class UniversityRecommendationPipeline:
@@ -48,8 +51,7 @@ class UniversityRecommendationPipeline:
                 "issues": issues
             }
         except Exception as e:
-            import logging
-            logging.error(f"Pipeline error: {e}")
+            logger.error(f"Pipeline error: {e}")
             # Return empty result on error
             return {
                 "profile": student_profile,

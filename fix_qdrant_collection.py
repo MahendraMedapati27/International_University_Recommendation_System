@@ -35,8 +35,12 @@ def main():
         csv_path = "data/raw/universities_sample.csv"
         if os.path.exists(csv_path):
             print(f"\n📥 Loading data from {csv_path}...")
-            db.load_universities(csv_path)
-            print("\n✅ Collection fixed and data loaded successfully!")
+            success = db.load_universities(csv_path)
+            if success:
+                print("\n✅ Collection fixed and data loaded successfully!")
+            else:
+                print("\n❌ Failed to load data. Check logs for details.")
+                return
         else:
             print(f"\n⚠️  CSV file not found: {csv_path}")
             print("✅ Collection created, but no data loaded.")
